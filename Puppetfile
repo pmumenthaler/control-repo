@@ -1,10 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
-# Versions should be updated to be the latest at the time you start
-#mod "puppetlabs/inifile",     '1.5.0'
-#mod "puppetlabs/stdlib",      '4.11.0'
-#mod "puppetlabs/concat",      '2.1.0'
+mod "saz/timezone",  
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -14,4 +11,16 @@ forge "http://forge.puppetlabs.com"
 
 mod 'puppet-ntp',
   :git    => 'https://github.com/pmumenthaler/puppet-ntp.git',
+  :branch => 'master'
+
+mod 'puppet-gitlab',
+  :git    => 'https://github.com/pmumenthaler/puppet-gitlab.git',
+  :branch => 'master'
+
+mod 'puppet-role',
+  :git    => 'https://github.com/pmumenthaler/puppet-role.git',
+  :branch => 'master'
+
+mod 'puppet-profile',
+  :git    => 'https://github.com/pmumenthaler/puppet-profile.git',
   :branch => 'master'
