@@ -2,6 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
 mod "saz/timezone"  
+mod "vshn/gitlab"
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -13,9 +14,9 @@ mod 'puppet-ntp',
   :git    => 'https://github.com/pmumenthaler/puppet-ntp.git',
   :branch => 'master'
 
-mod 'puppet-gitlab',
-  :git    => 'https://github.com/pmumenthaler/puppet-gitlab.git',
-  :branch => 'master'
+#mod 'puppet-gitlab',
+#  :git    => 'https://github.com/pmumenthaler/puppet-gitlab.git',
+#  :branch => 'master'
 
 mod 'puppet-role',
   :git    => 'https://github.com/pmumenthaler/puppet-role.git',
