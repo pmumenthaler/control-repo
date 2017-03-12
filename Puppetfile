@@ -25,5 +25,5 @@ mod 'puppet-profile',
   :git    => 'https://github.com/pmumenthaler/puppet-profile.git',
   :branch => 'master'
 mod 'manifest',
-  :git    => 'ssh://git@gitlab.mkdir.ch:mnp/puppet.git',
+  :git    => 'git@gitlab.mkdir.ch:mnp/puppet.git',
   :branch => 'production'
