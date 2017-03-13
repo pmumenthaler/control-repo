@@ -28,7 +28,7 @@ mod 'puppet-profile',
   :branch => 'master'
 
 mod 'puppet-fail2ban':
-  :git    => 'github.com:pmumenthaler/puppet-fail2ban.git',
+  :git    => 'git@github.com:pmumenthaler/puppet-fail2ban.git',
   :branch => 'master'
 
 
