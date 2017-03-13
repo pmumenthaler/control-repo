@@ -26,6 +26,13 @@ mod 'puppet-role',
 mod 'puppet-profile',
   :git    => 'https://github.com/pmumenthaler/puppet-profile.git',
   :branch => 'master'
+
+mod 'fail2ban':
+  :git    => 'github.com:pmumenthaler/puppet-fail2ban.git',
+  :branch => 'master'
+
+
+# local specific 
 mod 'site',
   :git    => 'git@gitlab.mkdir.ch:mnp/puppet.git',
   :branch => 'production'
