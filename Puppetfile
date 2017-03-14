@@ -31,6 +31,10 @@ mod 'puppet-fail2ban',
   :git    => 'git@github.com:pmumenthaler/puppet-fail2ban.git',
   :branch => 'master'
 
+mod 'puppet-ddclient',
+  :git    => 'git@github.com:pmumenthaler/puppet-ddclient.git',
+  :branch => 'master'
+
 
 # local specific 
 mod 'site',
