@@ -4,6 +4,7 @@ forge "http://forge.puppetlabs.com"
 mod "saz/timezone"  
 mod "vshn/gitlab"
 mod "puppetlabs/stdlib"
+mod "ghoneycutt/ssh"
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
